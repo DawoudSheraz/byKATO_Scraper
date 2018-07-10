@@ -6,6 +6,8 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 from scrapy.exporters import CsvItemExporter
+from scrapy.pipelines.images import ImagesPipeline
+from scrapy.http import Request
 
 
 class BykatospiderPipeline(object):
@@ -44,3 +46,32 @@ class BykatospiderPipeline(object):
         :param spider: Spider that extracted data
         """
         self.csv_exporter.finish_exporting()
+
+
+class CustomImageNamePipeline(ImagesPipeline):
+
+    """
+    Pipeline to create images with their original name
+    """
+
+    def get_media_requests(self, item, info):
+        """
+        passing file name as meta information.
+
+        :param item: item containing image url and name
+        :param info: additional info
+        :return: request with meta data as argument
+        """
+        return [Request(x, meta={'image_name': item["image_title"]})
+                for x in item.get('image_urls', [])]
+
+    def file_path(self, request, response=None, info=None):
+        """
+        Defining the path where files will be stored.
+
+        :param request: the request containing the metadata
+        :param response
+        :param info
+        :return: the intended path with custom file name
+        """
+        return 'full/%s.jpg' % request.meta['image_name']

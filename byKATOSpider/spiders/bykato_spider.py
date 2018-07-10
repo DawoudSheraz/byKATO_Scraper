@@ -8,7 +8,7 @@ class ByKatoSpider(CrawlSpider):
 
     name = "byKato"
 
-    base_url = 'http://bykato.com/?alttemplate=AjaxOverview&page=%s'
+    base_url = 'http://bykato.com/products/?alttemplate=AjaxOverview&page=%s'
     count = 1
     start_urls = [
         base_url % count,

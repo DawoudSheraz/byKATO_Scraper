@@ -66,7 +66,8 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'byKATOSpider.pipelines.BykatospiderPipeline': 300,
-    'scrapy.pipelines.images.ImagesPipeline': 1
+    #'scrapy.pipelines.images.ImagesPipeline': 1,
+    'byKATOSpider.pipelines.CustomImageNamePipeline': 1,
 }
 
 IMAGES_STORE = 'downloaded_images/'

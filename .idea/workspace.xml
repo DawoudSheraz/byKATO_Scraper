@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30c27eb9-19e0-4ea1-882e-669c43eb19c8" name="Default" comment="" />
+    <list default="true" id="30c27eb9-19e0-4ea1-882e-669c43eb19c8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byKATOSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/byKATOSpider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byKATOSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/byKATOSpider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byKATOSpider/spiders/bykato_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/byKATOSpider/spiders/bykato_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/0640b8da59a3b018e840536868b9b506ef05ec69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/12e56aa1f81a8a05c80947c8bbe6f805ffc66f7e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/181041e5362765ae4846a181a224ec58b30a9340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/1d33cc9a0d22437f1842fc934c83712267949b23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/2a1313d81c1b5de164d74722753c0f79a973a7a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/3db8043e3f30dc1fe0c51dd153a09989e821b8a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/474070a4bfcdde5d52fbc3140bba4905284616bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/54d21ecc92d00cb049f2eb091b205528acfa6db4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/560b2ae4d51cc4e17f3d060160ebc1ecdab0055a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/66f32f3dc50aaf10771ffd95a3eb7bb390e3665f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/6c15fee89ebc9a156dc7130f504d8c74c8d18e59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/7a688525b3468bbe47c9cd4232eda54c92481c8f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/883daa10c8bc50a320dad310bfe3ae4ae7d299ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/9688aa55a0509af3ad473fff671a2d8dda3ac573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/96d1ff0ca71934db142932281989e9567ff555bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/b12cc448d325cfc4096e8983ea090f1f56253097.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/b54377d6b70e4352bf105fe64c7331509f107536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/b7643a6d6cd0c0f8b348ad50b38a008f7540150c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/c9cacc81df89a1c85a1069ff88ee936fd1b7e9e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/caafa0d02ac7b247485e072fda12891c744e3181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/d574f78fa264b63c20de061870e7dc64fad32148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/eae50be49cbac045239641ecd56af3855b186054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloaded_images/full/ef38feae90c04ff29621a369e5c80054704d81a5.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +44,8 @@
       <file leaf-file-name="bykato_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/byKATOSpider/spiders/bykato_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+            <state relative-caret-position="690">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -23,11 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/byKATOSpider/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+              <folding>
+                <element signature="e#194#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/byKATOSpider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/byKATOSpider/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="330">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="e#153#166#0" expanded="true" />
               </folding>
@@ -44,13 +95,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/byKATOSpider/items.py" />
         <option value="$PROJECT_DIR$/byKATOSpider/spiders/bykato_spider.py" />
         <option value="$PROJECT_DIR$/byKATOSpider/settings.py" />
         <option value="$PROJECT_DIR$/byKATOSpider/pipelines.py" />
-        <option value="$PROJECT_DIR$/byKATOSpider/items.py" />
       </list>
     </option>
   </component>
@@ -60,6 +114,7 @@
     <option name="width" value="1375" />
     <option name="height" value="904" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -127,7 +182,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
@@ -149,24 +204,16 @@
     <entry file="file://$PROJECT_DIR$/byKATOSpider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/byKATOSpider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/scrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/byKATOSpider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/scrapy/pipelines/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/byKATOSpider/spiders/bykato_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        <state relative-caret-position="690">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -175,10 +222,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/byKATOSpider/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="330">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="15" />
           <folding>
             <element signature="e#153#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byKATOSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/scrapy/pipelines/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byKATOSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <folding>
+            <element signature="e#194#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
